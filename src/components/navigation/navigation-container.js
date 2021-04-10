@@ -16,32 +16,35 @@ const NavigationComponent = props => {
     return (
         <div className="nav-wrapper">
             <div className="left-side">
+                <div className="nav-logo">
+                    <img src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/logo-newest-200.jpg" />
+                </div>
                 <div className="nav-link-wrapper">
-                    <NavLink exact to="/" activeClassName="nav-link-active">
+                    <NavLink exact to="/" className="nav-link" activeClassName="nav-link-active">
                         Home
                     </NavLink>
                 </div>
 
                 <div className="nav-link-wrapper">
-                    <NavLink to="/about" activeClassName="nav-link-active">
+                    <NavLink to="/about" className="nav-link" activeClassName="nav-link-active">
                         About
                     </NavLink>
                 </div>
 
                 <div className="nav-link-wrapper">
-                    <NavLink to="/menu" activeClassName="nav-link-active">
+                    <NavLink to="/menu" className="nav-link" activeClassName="nav-link-active">
                         Menu
                     </NavLink>
                 </div>
 
                 <div className="nav-link-wrapper">
-                    <NavLink to="/directions" activeClassName="nav-link-active">
+                    <NavLink to="/directions" className="nav-link" activeClassName="nav-link-active">
                         Directions
                     </NavLink>
                 </div>
 
                 <div className="nav-link-wrapper">
-                    <NavLink to="/contact" activeClassName="nav-link-active">
+                    <NavLink to="/contact" className="nav-link" activeClassName="nav-link-active">
                         Contact
                     </NavLink>
                 </div>
