@@ -46,41 +46,43 @@ export default function() {
 
             <div className="three-button-section-wrapper">
                 <div className="three-button-section">
-                    <div className="left-part-wrapper">
-                        <div className="left-part">
-                            <div className="picture-wrapper">
-                                <img src="" alt="image"/>
-                            </div>
 
-                            <div className="button">
-                                <button>Breakfast</button>
+                    <div className="row-wrapper">
+                        <div className="picture-row">
+                            <div className="picture-wrapper">
+                                {/* <div className="picture picture-left"></div> */}
+                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-pancake.jpg" alt="image"/>
+                            </div>
+                            
+                            <div className="picture-wrapper">
+                                {/* <div className="picture picture-center"></div> */}
+                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-fish-tacos.jpg" alt="image"/>
+                            </div>
+                            
+                            <div className="picture-wrapper">
+                                {/* <div className="picture picture-right"></div> */}
+                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-chocolate-cheesecake.jpg" alt="image"/>
                             </div>
                         </div>
                     </div>
-
-                    <div className="center-part-wrapper">
-                        <div className="center-part">
-                            <div className="picture-wrapper">
-                                <img src="" alt="image"/>
+                    <div className="row-wrapper">
+                        <div className="button-row">
+                            <div className="button">
+                                <button>Breakfast</button>
                             </div>
 
                             <div className="button">
                                 <button>Lunch</button>
                             </div>
-                        </div>
-                    </div>
-
-                    <div className="right-part-wrapper">
-                        <div className="right-part">
-                            <div className="picture-wrapper">
-                                <img src="" alt="image"/>
-                            </div>
-
+                            
                             <div className="button">
                                 <button>Out Story</button>
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
 
