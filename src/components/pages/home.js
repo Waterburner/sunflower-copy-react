@@ -51,38 +51,159 @@ export default function() {
                         <div className="picture-row">
                             <div className="picture-wrapper">
                                 {/* <div className="picture picture-left"></div> */}
-                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-pancake.jpg" alt="image"/>
+                                <a href="#"><img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-pancake.jpg" alt="image"/>
+                                </a>
                             </div>
                             
                             <div className="picture-wrapper">
                                 {/* <div className="picture picture-center"></div> */}
-                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-fish-tacos.jpg" alt="image"/>
+                                <a href="#"><img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-fish-tacos.jpg" alt="image"/>
+                                </a>
                             </div>
                             
                             <div className="picture-wrapper">
                                 {/* <div className="picture picture-right"></div> */}
-                                <img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-chocolate-cheesecake.jpg" alt="image"/>
+                                <a href="#"><img className="picture" src="https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/frame-vertical-chocolate-cheesecake.jpg" alt="image"/>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="row-wrapper">
                         <div className="button-row">
                             <div className="button">
-                                <button>Breakfast</button>
+                                <a><button>Breakfast</button>
+                                </a>
                             </div>
 
                             <div className="button">
-                                <button>Lunch</button>
+                                <a><button>Lunch</button>
+                                </a>
                             </div>
                             
                             <div className="button">
-                                <button>Out Story</button>
+                                <a><button>Out Story</button>
+                                </a>
                             </div>
                         </div>
                     </div>
 
 
 
+                </div>
+            </div>
+
+            <div className="daily-specials-section-wrapper">
+                <div className="daily-specials">
+                    <div className="header-wrapper">
+                        <h3>Daily Specials</h3>
+                    </div>
+
+                    <div className="sub-header-wrapper">
+                        <h4>Brunch Specials</h4>
+                    </div>
+
+                    <div className="specials-menu-items-wrapper">
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Quail and Grits</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>13.95</p>
+                                </div>
+                            </div>
+                            <div className="specials-menu-description">
+                                <p>Fried Quail Over Homemade Cheese Grits With Spinach, Tomatoes, And Butter Sauce. Served With Jalapeno Toast. </p>
+                            </div>
+                        </div>
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Salsa de Molcajete Omelet</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>13.95</p>
+                                </div>
+                            </div>
+                            <div className="specials-menu-description">
+                                <p>Three Egg Omelet Filled With Spicy Roasted Tomatoes And Serrano Salsa, Topped With Guacamole And Queso Fresco Served With Black Beans And Breakfast Potatoes </p>
+                            </div>
+                        </div>
+
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Lemon Curd Waffle</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>11.95</p>
+                                </div>
+                            </div>
+                            <div className="specials-menu-description">
+                                <p>Homemade Belgian Waffle. Topped With Whipped Cream, And Berries, And A Generous Portion Of Meyer Lemon Curd.</p>
+                            </div>
+                        </div>
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Bread Pudding French Toast</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>8.95</p>
+                                </div>
+                            </div>
+
+                            <div className="specials-menu-description">
+                                <p>Topped With Fresh Fruit</p>
+                            </div>
+                        </div>
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Steak & Eggs</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>16.95</p>
+                                </div>
+                            </div>
+                            <div className="specials-menu-description">
+                                <p>Grilled Flat Iron Steak With Three Eggs Any Style. Served With Breakfast Potatoes And Toast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sub-header-wrapper">
+                        <h4>Soup of the day</h4>
+                    </div>
+
+                    <div className="specials-menu-items-wrapper">
+                        <div className="specials-menu-item">
+                            <div className="item-row">
+                                <div className="specials-menu-name">
+                                    <p>Meatball Soup</p>
+                                </div>
+                                <div className="space-between-price"></div>
+                                <div className="specials-menu-price">
+                                    <p>5.95 / 7.95</p>
+                                </div>
+                            </div>
+                            <div className="specials-menu-description">
+                                <p>Cup 5.95 | Bowl 7.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="buttons-wrapper">
+                        <a className="button" href="#">
+                            <button>Breakfast Menu</button>
+                        </a>
+                        <a className="button" href="#">
+                            <button>Lunch Menu</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 

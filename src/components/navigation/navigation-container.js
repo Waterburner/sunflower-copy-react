@@ -14,6 +14,7 @@ const NavigationComponent = props => {
     };
 
     return (
+        <div className="navigation">
         <div className="nav-wrapper">
             <div className="left-side">
                 <div className="nav-logo">
@@ -66,6 +67,8 @@ const NavigationComponent = props => {
                     </div>
                 </div>
             </div>
+        </div>
+        
         </div>
     );
 };
