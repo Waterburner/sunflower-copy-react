@@ -1,0 +1,72 @@
+// ========= footer styles ===========
+
+.footer-wrapper {
+
+    background-image: url("https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/vines-1200x476-3.jpg?id=2426");
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+    .footer {
+        padding: 15vh 10vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 3vw;
+
+        .footer-side-header {
+            font-size: 25px;
+            margin: 0 0 22px;
+        }
+
+        .footer-side-description {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .hours-header {
+            font-size: 35px;
+            line-height: 58px;
+        }
+        
+        .hours, .closed-days {
+            font-size: 28px;
+            line-height: 35px;
+            font-weight: 400;
+        }
+
+        .hours-disclaimer {
+            font-style: italic;
+            color: #3f3f3f;
+        }
+        
+    }
+    
+    .buttons-wrapper {
+        display: flex;
+        
+        .button {
+            button {
+                padding-left: 1vw;
+                padding-right: 1vw;
+                border-color: transparent;
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $nav-bar-background-color;
+        padding: 1px;
+        text-align: center;
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #bdbdbd;
+            font-weight: 300;
+        }
+    }
+
+
+}
+
+// ========= END OF footer styles ===========

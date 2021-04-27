@@ -71,17 +71,17 @@ export default function() {
                     <div className="row-wrapper">
                         <div className="button-row">
                             <div className="button">
-                                <a><button>Breakfast</button>
+                                <a><button className="button-hover">Breakfast</button>
                                 </a>
                             </div>
 
                             <div className="button">
-                                <a><button>Lunch</button>
+                                <a><button className="button-hover">Lunch</button>
                                 </a>
                             </div>
                             
                             <div className="button">
-                                <a><button>Out Story</button>
+                                <a><button className="button-hover">Out Story</button>
                                 </a>
                             </div>
                         </div>

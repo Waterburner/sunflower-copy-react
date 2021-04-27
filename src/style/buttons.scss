@@ -1,0 +1,30 @@
+// buttons styles
+
+
+.button{
+    button {
+        // display: inline-block;
+        background-color: $button-color;
+        padding-left: 45px;
+        padding-right: 45px;
+        line-height: 57px;
+        border: 3px solid $offwhite;
+        color: $offwhite;
+        font-size: 16px;
+        transition: 0.5s;
+        cursor: pointer;
+        
+    }
+}
+
+.black-btn {
+    button {
+        background-color: black;
+    }
+}
+
+.button-hover:hover {
+    border-color: gold;
+}
+
+// end of buttons styles

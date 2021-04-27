@@ -1,9 +1,13 @@
 // ============= navigation ==================
 
+.navigation {
+    position: relative;
+}
+
 .nav-wrapper {
     z-index: 1;
     position: fixed;
-    width: 100%;
+    width: 95vw;
 
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

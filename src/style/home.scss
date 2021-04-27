@@ -1,25 +1,4 @@
-// buttons styles
 
-.button{
-    button {
-        // display: inline-block;
-        background-color: $button-color;
-        padding-left: 45px;
-        padding-right: 45px;
-        line-height: 57px;
-        border: 3px solid $offwhite;
-        color: $offwhite;
-        font-size: 16px;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-    button:hover {
-        border-color: gold;
-    }
-}
-
-// end of buttons styles
 
 .home-wrapper {
 
@@ -91,7 +70,7 @@
         
     }
 
-// =============== Three button section ==============
+    // =============== Three button section ==============
 
     .three-button-section-wrapper {
         background-image: url('https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/2000x1333-display-01.jpg');
@@ -99,6 +78,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 85vh;
+
+        padding-bottom: 40vh;
 
         .three-button-section {
 
@@ -129,7 +110,7 @@
 
     // =============== end of 3 button section 
 
-// ============ Daily Specials ==============
+    // ============ Daily Specials ==============
 
 .daily-specials-section-wrapper {
 
@@ -216,7 +197,74 @@
     }
 }
 
+} // home wrapper bracket
+
 // ========= End of Daily Specials ==============
 
+// ================ about page ================
 
+.about-page-wrapper {
+    background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/vines-1200x476s.jpg);
+    
+    h1 {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: #465a7d;
+        font-family: 'Cookie', sans-serif;
+        font-size: 65px;
+        line-height: 73px;
+        background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/1920-1080-bg-wood-1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 240px;
+    }
+
+    .stupid-line {
+        background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/2000x300-texture-01.jpg?id=1957);
+        height: 40px;
+    }
+
+    .about-page {
+        background-color: transparent;
+        padding-bottom: 100px;
+        
+        .about-us-description {
+            background-color: white;
+
+            padding-left: 70px;
+            padding-right: 70px;
+            margin-top: -133px;
+            margin-left: 70px;
+            margin-right: 70px;
+    
+            border: 15px solid $nav-bar-background-color;
+            border-top-width: 35px;
+            border-bottom-width: 35px;
+
+            text-align: center;
+
+            .header {
+                font-family: 'Cookie', sans-serif;
+                font-size: 50px;
+                line-height: 58px;
+            }
+
+            .description-paragraph {
+                color: #303030;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 28px;
+
+                padding: 5%;
+            }
+
+            .description-image-wrapper {
+                padding: 02%;
+            }
+
+        }
+    }
 }
