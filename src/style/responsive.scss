@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .home-wrapper {
+        .now-offering-section {
+            .offer {
+                display: flex;
+                flex-direction: column-reverse;
+
+                margin: 0 40px 40px;
+            }
+        }
+
+        .three-button-section-wrapper {
+            height: 100%;
+            padding: 150px 0;
+            .three-button-section {
+                .row-wrapper {
+                    flex-direction: column;
+                    .left,
+                    .center,
+                    .right {
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+
+        .daily-specials-section-wrapper {
+            .daily-specials {
+                margin: 0 40px 0px;
+
+                .buttons-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    .button {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-wrapper {
+        .footer {
+            display: flex;
+            flex-direction: column;
+            * {
+                text-align: center;
+            }
+
+            .buttons-wrapper {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
