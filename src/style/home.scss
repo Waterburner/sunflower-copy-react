@@ -1,29 +1,21 @@
-
-
 .home-wrapper {
-
     h2 {
-        font-family: 'Dancing Script', cursive;
+        font-family: "Dancing Script", cursive;
         font-size: 40px;
     }
 
     .cover-img {
-
         // background-image: url("../../static/assets/img/banner-06.jpg");
-        img { 
-            width:100%;
+        img {
+            width: 100%;
         }
     }
-
-
 
     .now-offering-section {
         background-image: url("https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/vines-1200x476-3.jpg?id=2426");
         display: flex;
         flex-direction: column;
         justify-items: center;
-
-        
 
         .now-offering {
             text-align: center;
@@ -36,19 +28,19 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
 
-            .offer-left-side, .offer-right-side {
+            .offer-left-side,
+            .offer-right-side {
                 padding: 40px 15px;
             }
 
             .offer-left-side {
                 img {
                     // background-image: url("https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/frame-square-02.jpg");
-                    width: 100%; 
+                    width: 100%;
                 }
             }
 
             .offer-right-side {
-
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -58,44 +50,45 @@
 
                 .contact-section {
                     // font-family: Arial, Helvetica, sans-serif;
-                    font-family: 'Raleway', sans-serif;
-                
+                    font-family: "Raleway", sans-serif;
+
                     .contacts-wrapper {
                         display: flex;
                     }
                 }
             }
         }
-
-        
     }
 
     // =============== Three button section ==============
 
     .three-button-section-wrapper {
-        background-image: url('https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/2000x1333-display-01.jpg');
+        background-image: url("https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/2000x1333-display-01.jpg");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         height: 85vh;
 
-        padding-bottom: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 50px;
 
         .three-button-section {
-
-            padding: 150px 10vw;
-
-            .picture-row {
-
+            .row-wrapper {
                 display: flex;
-                justify-content: space-around;
-                
-                .picture-wrapper {
+                justify-content: space-between;
+                width: 100%;
 
-                    .picture {
-                        width: 25vw;
-                        height: auto;
-                        // background-size: cover;
+                div {
+                    text-align: center;
+                    .picture-wrapper {
+                        .picture {
+                            width: 75%;
+                            height: auto;
+                            // background-size: cover;
+                        }
                     }
                 }
             }
@@ -104,99 +97,90 @@
                 display: flex;
                 justify-content: space-around;
             }
-
         }
     }
 
-    // =============== end of 3 button section 
+    // =============== end of 3 button section
 
     // ============ Daily Specials ==============
 
-.daily-specials-section-wrapper {
+    .daily-specials-section-wrapper {
+        background-color: $nav-bar-background-color;
 
-    background-color: $nav-bar-background-color;
+        .daily-specials {
+            background-color: $offwhite;
+            margin-left: 75px;
+            margin-right: 75px;
+            position: relative;
+            top: -100px;
+            padding: 50px 50px 75px;
 
-    .daily-specials {
-        background-color: $offwhite;
-        margin-left: 75px;
-        margin-right: 75px;
-        position: relative;
-        top: -100px;
-        padding: 50px 50px 75px;
-
-        .header-wrapper {
-            h3 {
-                margin-top: 0px;
-                text-align: center;
-                font-family: 'Dancing Script', cursive;
-                font-size: 40px;
-            }
-        }
-
-        .sub-header-wrapper {
-
-            border-top: 3px solid black;
-            border-bottom: 3px solid black;
-            
-
-            h4 {
-                font-family: 'Dancing Script', cursive;
-                font-size: 30px;
-                margin: 15px 0px;
-            }
-        }
-
-        .specials-menu-items-wrapper {
-
-            .specials-menu-item {
-
-                p {
-                    font-family: 'Raleway', sans-serif;
-                    font-family: 'Raleway', sans-serif;
-                    margin: 0px;
-                    padding: 5px 0px;
-                    font-style: italic;
-                    color: $specials-menu-description-color;
+            .header-wrapper {
+                h3 {
+                    margin-top: 0px;
+                    text-align: center;
+                    font-family: "Dancing Script", cursive;
+                    font-size: 40px;
                 }
-                
-                .item-row {
-                    font-size: 20px;
-                    display: grid;
-                    grid-template-columns: auto 1fr auto;
-                    margin-top: 50px;
-                    
+            }
+
+            .sub-header-wrapper {
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+
+                h4 {
+                    font-family: "Dancing Script", cursive;
+                    font-size: 30px;
+                    margin: 15px 0px;
+                }
+            }
+
+            .specials-menu-items-wrapper {
+                .specials-menu-item {
                     p {
-                        color: black;
-                        font-style: normal;
+                        font-family: "Raleway", sans-serif;
+                        font-family: "Raleway", sans-serif;
+                        margin: 0px;
+                        padding: 5px 0px;
+                        font-style: italic;
+                        color: $specials-menu-description-color;
                     }
-                    
-                    .space-between-price {
-                        height: 75%;
-                        border-bottom: 1px dotted #828383;
+
+                    .item-row {
+                        font-size: 20px;
+                        display: grid;
+                        grid-template-columns: auto 1fr auto;
+                        margin-top: 50px;
+
+                        p {
+                            color: black;
+                            font-style: normal;
+                        }
+
+                        .space-between-price {
+                            height: 75%;
+                            border-bottom: 1px dotted #828383;
+                        }
                     }
                 }
             }
         }
-    }
 
-    .daily-specials {
+        .daily-specials {
+            .buttons-wrapper {
+                margin-top: 50px;
 
-        .buttons-wrapper {
-            
-            margin-top: 50px;
-            
-            button {
-                border-color: transparent;
-                margin-right: 40px;
-            }
-    
-            button:hover {
-                border-color: transparent;
+                button {
+                    border-color: transparent;
+                    margin-right: 40px;
+                }
+
+                button:hover {
+                    border-color: transparent;
+                }
             }
         }
     }
-}
-
 } // home wrapper bracket
 
 // ========= End of Daily Specials ==============
@@ -205,13 +189,13 @@
 
 .about-page-wrapper {
     background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/vines-1200x476s.jpg);
-    
+
     h1 {
         margin: 0;
         padding: 20px;
         text-align: center;
         color: #465a7d;
-        font-family: 'Cookie', sans-serif;
+        font-family: "Cookie", sans-serif;
         font-size: 65px;
         line-height: 73px;
         background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/11/1920-1080-bg-wood-1.jpg);
@@ -229,7 +213,7 @@
     .about-page {
         background-color: transparent;
         padding-bottom: 100px;
-        
+
         .about-us-description {
             background-color: white;
 
@@ -238,7 +222,7 @@
             margin-top: -133px;
             margin-left: 70px;
             margin-right: 70px;
-    
+
             border: 15px solid $nav-bar-background-color;
             border-top-width: 35px;
             border-bottom-width: 35px;
@@ -246,7 +230,7 @@
             text-align: center;
 
             .header {
-                font-family: 'Cookie', sans-serif;
+                font-family: "Cookie", sans-serif;
                 font-size: 50px;
                 line-height: 58px;
                 padding: 0;
@@ -255,7 +239,7 @@
 
             .description-paragraph {
                 color: #303030;
-                font-family: 'Raleway', sans-serif;
+                font-family: "Raleway", sans-serif;
                 font-weight: 300;
                 font-size: 18px;
                 line-height: 28px;
@@ -267,7 +251,6 @@
             .description-image-wrapper {
                 padding: 02%;
             }
-
         }
     }
 }
