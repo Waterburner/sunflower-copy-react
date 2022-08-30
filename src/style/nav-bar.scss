@@ -7,18 +7,17 @@
 .nav-wrapper {
     z-index: 1;
     position: fixed;
-    width: 95vw;
+    width: 100vw;
+    height: 130px;
 
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 
     display: flex;
     justify-content: space-between;
-    padding: 5px 45px;
-
 
     background-color: $nav-bar-background-color;
-    // current background image from https://thesunflowerbakeryandcafe.com 
+    // current background image from https://thesunflowerbakeryandcafe.com
     background-image: url(https://thesunflowerbakeryandcafe.com/wp-content/uploads/2019/10/2000x300-texture-01.jpg);
 
     // background saved in "/static/assets"
@@ -26,88 +25,95 @@
 
     // TO DO
     // save following 6 lines in variable $nav-bar-font-style
-    color: $nav-bar-text-color; 
+    color: $nav-bar-text-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     letter-spacing: -2px;
-    
-    .left-side {
 
+    .left-side {
+        padding-left: 10px;
         display: flex;
         align-items: center;
-
+        justify-content: space-between;
         .nav-logo {
-            height: 120px;
             padding-right: 10px;
+            height: 120px;
             img {
                 height: 100%;
             }
         }
+        .burger {
+            display: none;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
 
-        
-        .nav-link-wrapper {
+            .nav-socials-wrapper {
+                display: none;
+            }
+
+            .nav-link-wrapper {
                 height: 22px;
-            transition: 0.3s ease-in-out;
-            
-            margin-right: 20px;
-            
-            // TO DO
-            // just use $nav-bar-font-style in a {…}
-            a {
-                color: $nav-bar-text-color; 
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 600;
-                letter-spacing: -2px;
-                text-transform: none;
-                
-                transition: 0.4s;
-                
-                &:hover {
-                    color: $nav-bar-text-hover-color;
+                transition: 0.3s ease-in-out;
+
+                margin-right: 20px;
+
+                // TO DO
+                // just use $nav-bar-font-style in a {…}
+                a {
+                    color: $nav-bar-text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    letter-spacing: -2px;
+                    text-transform: none;
+
+                    transition: 0.4s;
+
+                    &:hover {
+                        color: $nav-bar-text-hover-color;
+                    }
                 }
-            }
-            
-            .nav-link {
-                border-bottom: 3px solid transparent; 
-                
-                &:hover {
-                    border-bottom: 3px solid $offgray;
+
+                .nav-link {
+                    border-bottom: 3px solid transparent;
+
+                    &:hover {
+                        border-bottom: 3px solid $offgray;
+                    }
                 }
-            }
-            
-            .nav-link-active {
-                border-bottom: 3px solid white;
-                color: $offgray;
-                
-                &:hover {
-                    border-bottom: 3px solid $offgray;
+
+                .nav-link-active {
+                    border-bottom: 3px solid white;
                     color: $offgray;
+
+                    &:hover {
+                        border-bottom: 3px solid $offgray;
+                        color: $offgray;
+                    }
                 }
             }
         }
     }
 
     .right-side {
-
+        padding-right: 10px;
         display: flex;
         align-items: center;
 
         .social-media-wrapper {
-            
             display: flex;
 
             .social-media-btn {
                 margin: 0px 3px;
-                
+
                 //testing
                 background-color: black;
             }
         }
     }
 }
-
-
 
 // ============= END OF NAVIGATION ===========
